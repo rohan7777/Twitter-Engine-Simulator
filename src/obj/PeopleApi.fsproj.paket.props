@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+        <PaketPropsVersion>5.185.3</PaketPropsVersion>
+        <PaketPropsLoaded>true</PaketPropsLoaded>
+    </PropertyGroup>
+
+    <ItemGroup Condition="($(DesignTimeBuild) == true) AND ($(TargetFrameworkIdentifier) == '.NETCoreApp' And $(TargetFrameworkVersion) == 'v2.0')">
+        <PackageReference Include="FSharp.Core">
+            <Version>4.6.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.ObjectPool">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NETCore.Platforms">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NETCore.Targets">
+            <Version>2.1</Version>
+        </PackageReference>
+        <PackageReference Include="Newtonsoft.Json">
+            <Version>12.0.2</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.native.System">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.native.System.Net.Http">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.native.System.Security.Cryptography.Apple">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="runtime.native.System.Security.Cryptography.OpenSsl">
+            <Version>4.3.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Buffers">
+            <Version>4.5</Version>
+        </PackageReference>
+        <PackageReference Include="System.Collections.Immutable">
+            <Version>1.5</Version>
+        </PackageReference>
+        <PackageReference Include="System.ComponentModel.Annotations">
+            <Version>4.5</Version>
+        </PackageReference>
+        <PackageReference Include="System.Diagnostics.DiagnosticSource">
+            <Version>4.5.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Numerics.Vectors">
+            <Version>4.5</Version>
+        </PackageReference>
+        <PackageReference Include="System.Reflection.Metadata">
+            <Version>1.6</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Collections">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Diagnostics.Debug">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Diagnostics.Tools">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Diagnostics.Tracing">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Globalization">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Globalization.Calendars">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.IO.FileSystem.Primitives">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Reflection.Primitives">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.CompilerServices.Unsafe">
+            <Version>4.5.2</Version>
+        </PackageReference>
+        <PackageReference Include="System.Memory">
+            <Version>4.5.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Primitives">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Features">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder">
+            <Version>2.2.4</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables">
+            <Version>2.2.4</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.FileProviders.Physical">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Options">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging.Configuration">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging.Console">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Net.Http.Headers">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.Extensions">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.Handles">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Net.Primitives">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.Cng">
+            <Version>4.5</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.OpenSsl">
+            <Version>4.5.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Principal.Windows">
+            <Version>4.5.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Text.Encoding">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Text.Encoding.Extensions">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Text.Encodings.Web">
+            <Version>4.5</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Extensions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.HttpOverrides">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Routing">
+            <Version>2.2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.WebUtilities">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Http">
+            <Version>2.2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Core">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.HostFiltering">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Hosting">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.WebEncoders">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.StaticFiles">
+            <Version>2.1.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Threading.Tasks">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.IO">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.IO.FileSystem">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Reflection">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Resources.ResourceManager">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Linq">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.InteropServices">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Globalization.Extensions">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.Numerics">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Threading">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Collections.Concurrent">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.ObjectModel">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Runtime.WindowsRuntime">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.Primitives">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.Encoding">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.Algorithms">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.Csp">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Security.Cryptography.X509Certificates">
+            <Version>4.3.2</Version>
+        </PackageReference>
+        <PackageReference Include="System.Net.Http">
+            <Version>4.3.4</Version>
+        </PackageReference>
+        <PackageReference Include="System.Text.RegularExpressions">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Threading.Tasks.Extensions">
+            <Version>4.5.2</Version>
+        </PackageReference>
+        <PackageReference Include="System.IO.Pipelines">
+            <Version>4.5.3</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Connections.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration">
+            <Version>2.2.1</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Core">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets">
+            <Version>2.2.1</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel">
+            <Version>2.2</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore">
+            <Version>2.1.7</Version>
+        </PackageReference>
+        <PackageReference Include="System.Xml.ReaderWriter">
+            <Version>4.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="System.Xml.XDocument">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Xml.XmlDocument">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Xml.XPath">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="System.Xml.XPath.XmlDocument">
+            <Version>4.3</Version>
+        </PackageReference>
+        <PackageReference Include="HtmlAgilityPack">
+            <Version>1.11.3</Version>
+        </PackageReference>
+        <PackageReference Include="WebSharper">
+            <Version>4.5.11.334</Version>
+        </PackageReference>
+        <PackageReference Include="WebSharper.AspNetCore">
+            <Version>4.5.3.104</Version>
+        </PackageReference>
+        <PackageReference Include="WebSharper.FSharp">
+            <Version>4.5.11.334</Version>
+        </PackageReference>
+        <PackageReference Include="WebSharper.UI">
+            <Version>4.5.10.171</Version>
+        </PackageReference>
+    </ItemGroup>
+</Project>

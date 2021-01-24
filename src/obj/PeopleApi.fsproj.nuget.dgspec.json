@@ -1,0 +1,729 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\UF Academics\\DOS\\Project 4-2\\Shahane_Sharma\\twitter-part2\\src\\PeopleApi.fsproj": {}
+  },
+  "projects": {
+    "C:\\UF Academics\\DOS\\Project 4-2\\Shahane_Sharma\\twitter-part2\\src\\PeopleApi.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\UF Academics\\DOS\\Project 4-2\\Shahane_Sharma\\twitter-part2\\src\\PeopleApi.fsproj",
+        "projectName": "PeopleApi",
+        "projectPath": "C:\\UF Academics\\DOS\\Project 4-2\\Shahane_Sharma\\twitter-part2\\src\\PeopleApi.fsproj",
+        "packagesPath": "C:\\Users\\Rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\UF Academics\\DOS\\Project 4-2\\Shahane_Sharma\\twitter-part2\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )",
+              "generatePathProperty": true
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.3, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.7, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Authentication.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Authentication.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Connections.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Diagnostics.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.HostFiltering": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Hosting.Server.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.HttpOverrides": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Routing.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.IISIntegration": {
+              "target": "Package",
+              "version": "[2.2.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Https": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": {
+              "target": "Package",
+              "version": "[2.2.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.FileSystemGlobbing": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.WebEncoders": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NETCore.Targets": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Net.Http.Headers": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )",
+              "generatePathProperty": true
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Collections.Concurrent": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.5.1, )",
+              "generatePathProperty": true
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Diagnostics.Tracing": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Globalization.Calendars": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Globalization.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.IO.FileSystem.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.IO.Pipelines": {
+              "target": "Package",
+              "version": "[4.5.3, )",
+              "generatePathProperty": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.2, )",
+              "generatePathProperty": true
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )",
+              "generatePathProperty": true
+            },
+            "System.Net.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.Handles": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.Numerics": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.Csp": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.5.1, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )",
+              "generatePathProperty": true
+            },
+            "System.Security.Principal.Windows": {
+              "target": "Package",
+              "version": "[4.5.1, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Encoding.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "generatePathProperty": true
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.2, )",
+              "generatePathProperty": true
+            },
+            "System.Xml.ReaderWriter": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Xml.XDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Xml.XPath": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Xml.XPath.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Xml.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "WebSharper": {
+              "target": "Package",
+              "version": "[4.5.11.334, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.AspNetCore": {
+              "target": "Package",
+              "version": "[4.5.3.104, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.FSharp": {
+              "target": "Package",
+              "version": "[4.5.11.334, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.UI": {
+              "target": "Package",
+              "version": "[4.5.10.171, )",
+              "generatePathProperty": true
+            },
+            "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.native.System": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "runtime.native.System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "runtime.native.System.Security.Cryptography.Apple": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            },
+            "runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
